@@ -69,14 +69,14 @@ print("Transcription completed for all audio files.")
 
 This script uses the OpenAI API to convert speech to text. It goes through each audio file in the input directory, transcribes it using the OpenAI API, and writes the transcription to a text file in the output directory.
 
-#Usage
+## Usage
 Run the script.
 When prompted, enter your OpenAI API key.
 Enter the path to the input directory (where your audio files are located).
 Enter the path to the output directory (where the transcriptions will be saved).
 The script will transcribe each audio file, and print progress messages to the console.
 
-#Requirements
+## Requirements
 You need to have the os, openai, and time Python modules installed to run this script. You also need to have a valid OpenAI API key.
 
 
